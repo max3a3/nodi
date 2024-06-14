@@ -1,7 +1,7 @@
 
 import { Vector2 } from 'three';
 import { v4 } from 'uuid';
-import { NodeConstructorType, NodeBase, NodeJSONType } from '@nodi/core';
+import { NodeConstructorType, NodeBase, NodeJSONType } from '@/src';
 import Editor from '../Editor';
 import Operation from './Operation';
 

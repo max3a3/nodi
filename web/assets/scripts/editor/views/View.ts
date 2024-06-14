@@ -1,5 +1,5 @@
 
-import { IDisposable } from '@nodi/core';
+import { IDisposable } from '@/src';
 import { GUIEvent, ViewEvent } from '../misc/Events';
 
 export default abstract class View implements IDisposable {

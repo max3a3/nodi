@@ -1,6 +1,6 @@
 
 import { Vector2 } from 'three';
-import { NodeConstructorType } from '@nodi/core';
+import { NodeConstructorType } from '@/src';
 
 export default class NodePlaceholder {
   el: HTMLDivElement;

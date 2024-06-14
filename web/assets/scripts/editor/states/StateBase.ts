@@ -1,4 +1,4 @@
-import { IDisposable } from '@nodi/core';
+import { IDisposable } from '@/src';
 import Editor, { EditorMouseInput } from '../Editor';
 import GroupView from '../views/GroupView';
 import IOView from '../views/IOView';

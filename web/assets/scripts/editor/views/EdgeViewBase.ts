@@ -1,5 +1,5 @@
 import { Vector2 } from 'three';
-import { NBezier, NSegment2D } from '@nodi/core';
+import { NBezier, NSegment2D } from '@/src';
 import View from './View';
 
 export default abstract class EdgeViewBase extends View {

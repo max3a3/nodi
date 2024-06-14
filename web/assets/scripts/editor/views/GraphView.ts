@@ -5,7 +5,7 @@ import {
   NodeConnectEventArg, NodeEventArg,
   Graph, IO, NodeBase, GroupElement,
   Input, Output
-} from '@nodi/core';
+} from '@/src';
 import { ConnectOperationArg } from '../operations/ConnectOperation';
 import { GroupViewEvent, NodeIOViewEvent, NodeViewEvent } from '../misc/Events';
 import View from './View';

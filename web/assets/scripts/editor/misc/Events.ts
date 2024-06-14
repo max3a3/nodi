@@ -1,4 +1,4 @@
-import { TypedEvent, Graph, GroupElement, NodeBase, IO, NodeConstructorType } from '@nodi/core';
+import { TypedEvent, Graph, GroupElement, NodeBase, IO, NodeConstructorType } from '@/src';
 import View from '../views/View';
 import EdgeView from '../views/EdgeView';
 import IOView from '../views/IOView';

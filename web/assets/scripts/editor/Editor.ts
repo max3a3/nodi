@@ -15,7 +15,7 @@ import {
   NodeJSONType,
   getNodeConstructorName,
   getNodeConstructorNameOfInstance
-} from '@nodi/core';
+} from '@/src';
 
 import InputUtils from './misc/InputUtils';
 import { KeyCodeStrings } from './misc/KeyCodes';

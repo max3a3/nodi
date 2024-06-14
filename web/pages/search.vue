@@ -64,7 +64,7 @@ import { Component, Vue, Watch } from 'nuxt-property-decorator';
 
 import { Vector2 } from 'three';
 import _ from 'lodash';
-import { NodeDictionary } from '@nodi/core';
+import { NodeDictionary } from '@/src';
 
 import Files from '~/components/common/Files.vue';
 import Nodes from '~/components/common/Nodes.vue';

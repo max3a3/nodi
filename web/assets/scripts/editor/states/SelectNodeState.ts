@@ -1,4 +1,4 @@
-import { NodeBase } from '@nodi/core';
+import { NodeBase } from '@/src';
 import Editor, { EditorMouseInput } from '../Editor';
 import NodeView from '../views/NodeView';
 import DragNodeState from './DragNodeState';

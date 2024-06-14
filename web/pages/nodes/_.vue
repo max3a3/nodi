@@ -90,7 +90,7 @@
 import { v4 } from 'uuid';
 import axios from 'axios';
 import { Component, Vue } from 'nuxt-property-decorator';
-import { NodeDictionary, DataTypeColors, getTypeNames } from '@nodi/core';
+import { NodeDictionary, DataTypeColors, getTypeNames } from '@/src';
 
 import Spinner from '~/components/misc/Spinner.vue';
 import NodeDescription from '~/assets/json/description.json';

@@ -19,7 +19,7 @@
 <script lang="ts">
 
 import { Vue, Prop, Component } from 'nuxt-property-decorator';
-import { NDomain } from '@nodi/core';
+import { NDomain } from '@/src';
 
 @Component({})
 export default class DomainInput extends Vue {

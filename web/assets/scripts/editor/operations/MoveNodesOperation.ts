@@ -1,6 +1,6 @@
 
 import { Vector2 } from 'three';
-import { NodeBase } from '@nodi/core';
+import { NodeBase } from '@/src';
 import Editor from '../Editor';
 import NodeView from '../views/NodeView';
 import Operation from './Operation';

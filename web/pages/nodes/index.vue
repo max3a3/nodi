@@ -9,7 +9,7 @@
 <script lang='ts'>
 
 import { Component, Vue } from 'nuxt-property-decorator';
-import { NodeDictionary } from '@nodi/core';
+import { NodeDictionary } from '@/src';
 
 import Spinner from '~/components/misc/Spinner.vue';
 import Nodes from '~/components/common/Nodes.vue';

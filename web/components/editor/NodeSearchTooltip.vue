@@ -18,7 +18,7 @@
 
 import { Component } from 'nuxt-property-decorator';
 import { Vector2 } from 'three';
-import { NodeConstructorType } from '@nodi/core';
+import { NodeConstructorType } from '@/src';
 import Tooltip from './Tooltip.vue';
 import NodeSearchBox from './NodeSearchBox.vue';
 

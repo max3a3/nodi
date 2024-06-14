@@ -61,7 +61,7 @@
 import { Prop, Component, Vue } from 'nuxt-property-decorator';
 import octicons from '@primer/octicons';
 import { Vector3 } from 'three';
-import { NodeBase, RenderingMode, FrepRenderingQuality, UINodeBase, IDisposable } from '@nodi/core';
+import { NodeBase, RenderingMode, FrepRenderingQuality, UINodeBase, IDisposable } from '@/src';
 
 import Axis from './Axis.vue';
 import UIListItem from './UIListItem.vue';

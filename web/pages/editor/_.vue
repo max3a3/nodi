@@ -165,7 +165,7 @@ import octicons from '@primer/octicons';
 import isMobile from 'ismobilejs';
 
 import { v4 } from 'uuid';
-import { GroupElement, GraphJSONType, NodeConstructorType } from '@nodi/core';
+import { GroupElement, GraphJSONType, NodeConstructorType } from '@/src';
 import SvgLogoWhiteIconOnlyMask from '@/assets/images/logo/logo-white-icon-only-mask.svg?raw';
 import Editor from '~/assets/scripts/editor/Editor';
 

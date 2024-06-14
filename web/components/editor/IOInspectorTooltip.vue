@@ -20,7 +20,7 @@
 
 import { Component } from 'nuxt-property-decorator';
 import { Vector2 } from 'three';
-import { NodeBase, IO, getTypeNames, DataTree } from '@nodi/core';
+import { NodeBase, IO, getTypeNames, DataTree } from '@/src';
 
 import Tooltip from './Tooltip.vue';
 

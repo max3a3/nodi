@@ -39,7 +39,7 @@
 
 import { Component, Watch } from 'nuxt-property-decorator';
 import { Vector2 } from 'three';
-import { IO, IODisplayTypes } from '@nodi/core';
+import { IO, IODisplayTypes } from '@/src';
 
 import Tooltip from './Tooltip.vue';
 import IOView from '~/assets/scripts/editor/views/IOView';

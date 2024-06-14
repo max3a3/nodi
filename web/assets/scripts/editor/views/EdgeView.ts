@@ -1,5 +1,5 @@
 
-import { NodeBase, Output, IO, IODisplayTypes, Input } from '@nodi/core';
+import { NodeBase, Output, IO, IODisplayTypes, Input } from '@/src';
 import IOView from './IOView';
 import NodeView from './NodeView';
 import EdgeViewBase from './EdgeViewBase';

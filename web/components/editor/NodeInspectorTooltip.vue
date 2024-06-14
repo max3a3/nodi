@@ -33,7 +33,7 @@ import {
   NPlane, NPoint, NDomain,
   getNodeConstructorNameOfInstance,
   FrepCustomDistanceFunction
-} from '@nodi/core';
+} from '@/src';
 
 import Tooltip from './Tooltip.vue';
 import NumberInput from './inspectors/ui/NumberInput.vue';

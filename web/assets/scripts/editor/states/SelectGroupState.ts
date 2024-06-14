@@ -1,4 +1,4 @@
-import { NodeBase } from '@nodi/core';
+import { NodeBase } from '@/src';
 import { Vector2 } from 'three';
 import Editor, { EditorMouseInput } from '../Editor';
 import GroupView from '../views/GroupView';

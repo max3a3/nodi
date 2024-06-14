@@ -5,7 +5,7 @@ import {
   Input, IO, IODisplayTypes,
   Output,
   HALF_PI, Rad2Deg
-} from '@nodi/core';
+} from '@/src';
 import View from './View';
 
 export const ioSize = 10;

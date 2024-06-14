@@ -30,7 +30,7 @@
 
 import { Component } from 'nuxt-property-decorator';
 import { Vector2 } from 'three';
-import { GroupElement } from '@nodi/core';
+import { GroupElement } from '@/src';
 import Tooltip from './Tooltip.vue';
 
 let target: GroupElement;

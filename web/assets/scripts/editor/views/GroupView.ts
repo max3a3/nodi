@@ -1,4 +1,4 @@
-import { NodeBase, GroupElement } from '@nodi/core';
+import { NodeBase, GroupElement } from '@/src';
 import { GroupViewEvent } from '../misc/Events';
 import NodeView from './NodeView';
 import View from './View';

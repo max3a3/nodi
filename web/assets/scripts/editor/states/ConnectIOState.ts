@@ -1,5 +1,5 @@
 import { Vector2 } from 'three';
-import { Output } from '@nodi/core';
+import { Output } from '@/src';
 import Editor, { EditorMouseInput } from '../Editor';
 import { DisconnectOperation, SequentialOperation } from '../operations';
 import ConnectOperation, { ConnectOperationArg } from '../operations/ConnectOperation';

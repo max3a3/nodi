@@ -14,7 +14,7 @@ import {
   NPoint, NMesh, NPlane, NBoundingBox, NSurface,
   TypedEvent, IElementable, isDisplayNode, DataTree, NLineCurve, NRectangleCurve, GradientCubeTexture, NFrepBase, IResolutionResponsible, isResolutionResponsible, IDisposable, RenderingMode, PreviewColors, GridGroup, GridGeometry, Axes, BoundingBoxLineSegments, NVBox, NVPlane, NVMesh, NVPoints, NVLine, NVFrep, NVPointTransformControls, CoordinateMode, isRenderingModeResponsible,
   NodeBase, Point
-} from '@nodi/core';
+} from '@/src';
 import RaymarchingPass from './RaymarchingPass';
 
 const minZoomScale = 1 / 2;

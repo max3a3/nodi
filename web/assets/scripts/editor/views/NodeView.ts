@@ -1,7 +1,7 @@
 
 import { Vector2 } from 'three';
 
-import { NodeBase, IO, IndicatorElement } from '@nodi/core';
+import { NodeBase, IO, IndicatorElement } from '@/src';
 import InputUtils from '../misc/InputUtils';
 import { NodeIOViewEvent, NodeViewEvent } from '../misc/Events';
 import View from './View';

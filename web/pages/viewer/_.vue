@@ -26,7 +26,7 @@ import { Vue, Component } from 'nuxt-property-decorator';
 
 import axios from 'axios';
 import { Box3 } from 'three';
-import { Graph } from '@nodi/core';
+import { Graph } from '@/src';
 import SvgLogoWhiteIconOnlyMask from '@/assets/images/logo/logo-white-icon-only-mask.svg?raw';
 
 import Spinner from '~/components/misc/Spinner.vue';

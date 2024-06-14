@@ -56,7 +56,7 @@
 <script lang='ts'>
 
 import { Vue, Prop, Component } from 'nuxt-property-decorator';
-import { NPlane } from '@nodi/core';
+import { NPlane } from '@/src';
 
 @Component({})
 export default class PlaneInput extends Vue {

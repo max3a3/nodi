@@ -47,7 +47,7 @@
 <script lang='ts'>
 
 import { Component } from 'nuxt-property-decorator';
-import { getNodeConstructorNameOfInstance, NodeBase } from '@nodi/core';
+import { getNodeConstructorNameOfInstance, NodeBase } from '@/src';
 import Tooltip from './Tooltip.vue';
 
 type NodeSearchCandidateType = {

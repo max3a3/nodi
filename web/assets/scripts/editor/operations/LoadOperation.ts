@@ -1,5 +1,5 @@
 
-import { GraphJSONType, Unknown } from '@nodi/core';
+import { GraphJSONType, Unknown } from '@/src';
 import Editor from '../Editor';
 import Operation from './Operation';
 

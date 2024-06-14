@@ -1,5 +1,5 @@
 
-import { NSegment2D } from '@nodi/core';
+import { NSegment2D } from '@/src';
 
 export default class PolylineFigure {
   el: HTMLDivElement;

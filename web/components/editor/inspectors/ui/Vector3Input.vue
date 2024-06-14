@@ -24,7 +24,7 @@
 
 import { Vector3 } from 'three';
 import { Vue, Prop, Component } from 'nuxt-property-decorator';
-import { NPoint } from '@nodi/core';
+import { NPoint } from '@/src';
 
 @Component({})
 export default class Vector3Input extends Vue {

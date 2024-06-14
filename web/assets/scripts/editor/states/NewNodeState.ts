@@ -1,5 +1,5 @@
 import { Vector2 } from 'three';
-import { NodeConstructorType } from '@nodi/core';
+import { NodeConstructorType } from '@/src';
 import { KeyCodeStrings } from '../misc/KeyCodes';
 import Editor, { EditorMouseInput } from '../Editor';
 import AddNodeOperation from '../operations/AddNodeOperation';

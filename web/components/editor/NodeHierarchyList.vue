@@ -31,7 +31,7 @@
 <script lang='ts'>
 
 import { Vue, Component, Prop } from 'nuxt-property-decorator';
-import { NodeConstructorType } from '@nodi/core';
+import { NodeConstructorType } from '@/src';
 
 export type NodeItem = { name: string; entity: NodeConstructorType };
 

@@ -49,7 +49,7 @@
 <script lang='ts'>
 
 import { Vue, Component } from 'nuxt-property-decorator';
-import { NodeDictionary } from '@nodi/core';
+import { NodeDictionary } from '@/src';
 import NodeHierarchyList, { NodeItem, Leaf, Directory } from './NodeHierarchyList.vue';
 
 @Component({

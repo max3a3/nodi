@@ -76,7 +76,7 @@ import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/mode/clike/clike.js';
 
 import { Vue, Prop, Component, Watch } from 'nuxt-property-decorator';
-import { AccessTypes, DataTypes, CustomPayloadType, AccessType } from '@nodi/core';
+import { AccessTypes, DataTypes, CustomPayloadType, AccessType } from '@/src';
 
 @Component({})
 export default class CustomInspector extends Vue {

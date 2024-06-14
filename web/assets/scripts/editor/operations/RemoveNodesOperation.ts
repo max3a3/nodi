@@ -1,5 +1,5 @@
 
-import { getNodeConstructorNameOfInstance, NodeBase, NodeJSONType } from '@nodi/core';
+import { getNodeConstructorNameOfInstance, NodeBase, NodeJSONType } from '@/src';
 import Editor from '../Editor';
 import Operation from './Operation';
 

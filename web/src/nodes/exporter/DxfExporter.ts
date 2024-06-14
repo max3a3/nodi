@@ -1,5 +1,6 @@
 
-import Drawing, { Unit, ACIKey } from 'dxf-writer';
+// import Drawing, { Unit, ACIKey } from 'dxf-writer';
+type Unit="Millimeters";
 import { Vector3 } from 'three';
 import { AccessTypes } from '../../data/AccessTypes';
 import { DataAccess } from '../../data/DataAccess';
@@ -124,7 +125,8 @@ export class DxfExporter extends ExporterNodeBase {
   public solve (access: DataAccess): void {
   }
 
-  private export (unit: Unit = 'Millimeters'): Promise<Blob> {
+  private export (unit: Unit ="Millimeters"): Promise<Blob> {
+    /*
     const drawing = new Drawing();
     drawing.setUnits(unit);
 
@@ -166,6 +168,12 @@ export class DxfExporter extends ExporterNodeBase {
     });
 
     const data = drawing.toDxfString();
+    return Promise.resolve(new Blob([data], {
+      type: 'text/plain'
+    }));
+
+     */
+    const data = "no-dxf";
     return Promise.resolve(new Blob([data], {
       type: 'text/plain'
     }));

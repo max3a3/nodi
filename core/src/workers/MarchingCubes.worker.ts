@@ -1,4 +1,4 @@
-const wasm = import('@/wasm/marching-cubes/pkg');
+//const wasm = import('@/wasm/marching-cubes/pkg');
 
 export type MarchingCubesProps = {
   buffer: Float32Array;
@@ -10,6 +10,7 @@ export type MarchingCubesProps = {
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const ctx: Worker = self as any;
 ctx.addEventListener('message', async (e) => {
+  /*
   const { MarchingCubes } = await wasm;
 
   const { buffer, width, height, depth }: MarchingCubesProps = e.data;
@@ -22,5 +23,7 @@ ctx.addEventListener('message', async (e) => {
     triangles: array
   }, [array.buffer]);
   mc.free();
+
+   */
 });
 export default self as any;

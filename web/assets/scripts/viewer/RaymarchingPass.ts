@@ -130,7 +130,9 @@ export default class RaymarchingPass extends Pass {
     const frepCustomFunction = filters.filter((fr, idx) => {
       return filters.indexOf(fr) === idx;
     }).map((fr) => {
-      return fr.fn();
+      debugger
+//      return fr.fn(); this is wrong fr is NFrepBase
+      return "" //hack
     }).join('\n');
 
     const visibles = this.freps.filter(n => n.visible);
